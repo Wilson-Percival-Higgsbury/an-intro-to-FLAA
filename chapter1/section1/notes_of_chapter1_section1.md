@@ -1,3 +1,5 @@
+ <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+ 
 Mathematical Preliminaries and Notation
 =======================================
 
@@ -20,3 +22,19 @@ A set <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1}" target="_blank"
 If <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1}&space;\subseteq&space;S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1}&space;\subseteq&space;S" title="S_{1} \subseteq S" /></a>, but <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a> contains an element not in <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1}" title="S_{1}" /></a>, we say that <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1}" title="S_{1}" /></a> is a **proper subset** of <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a>; we write this as
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1}&space;\subset&space;S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1}&space;\subset&space;S" title="S_{1} \subset S" /></a>.
+
+If <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1}" title="S_{1}" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=S_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{2}" title="S_{2}" /></a> have no common element, then the sets are said to be **disjoint**. We write this as
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=S_{1}&space;\cap&space;S_{2}&space;=&space;\varnothing" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1}&space;\cap&space;S_{2}&space;=&space;\varnothing" title="S_{1} \cap S_{2} = \varnothing" /></a>.
+
+A set is said to be **finite** if it contains a finite number of elements; otherwise it is **infinite**.
+
+The set of all subsets of a set <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a> is called the **powerset** of <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a> and is denoted by <a href="https://www.codecogs.com/eqnedit.php?latex=2^{S}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?2^{S}" title="2^{S}" /></a>. If <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a> is finite, then
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=|2^{S}|&space;=&space;2^{|S|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|2^{S}|&space;=&space;2^{|S|}" title="|2^{S}| = 2^{|S|}" /></a>.
+
+\begin{equation*}
+S_{1} = S_{2}.
+\end{equation*}
+
+The elements of a set are ordered sequences of elements from other sets
