@@ -38,7 +38,9 @@ The sets whose elements are ordered sequences of elements from other sets are sa
 Suppose that <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" title="S_{1},\ S_{2},\ \cdots,\ S_{n}" /></a> are subsets of a given set <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a> and that the following holds:
 
 **1**. The subsets <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" title="S_{1},\ S_{2},\ \cdots,\ S_{n}" /></a> are mutually disjoint;
+
 **2**. S_{1} \cup S_{2} \cup \cdots \cup S_{n} = S;
+
 **3**. none of the <a href="https://www.codecogs.com/eqnedit.php?latex=S_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{i}" title="S_{i}" /></a> is empty.
 
 Then <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" title="S_{1},\ S_{2},\ \cdots,\ S_{n}" /></a> is called a **partition** of <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a>.
