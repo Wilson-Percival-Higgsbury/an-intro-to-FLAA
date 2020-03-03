@@ -1,5 +1,3 @@
- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
- 
 Mathematical Preliminaries and Notation
 =======================================
 
@@ -33,8 +31,14 @@ The set of all subsets of a set <a href="https://www.codecogs.com/eqnedit.php?la
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=|2^{S}|&space;=&space;2^{|S|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|2^{S}|&space;=&space;2^{|S|}" title="|2^{S}| = 2^{|S|}" /></a>.
 
-\begin{equation*}
-S_{1} = S_{2}.
-\end{equation*}
+The sets whose elements are ordered sequences of elements from other sets are said to be the **Cartesian product** of other sets. For the Cartesian product of <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n" title="n" /></a> sets, which itself is a set of ordered pairs, we write
 
-The elements of a set are ordered sequences of elements from other sets
+<a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;S_{1}&space;\times&space;S_{2}&space;\times&space;\cdots&space;\times&space;S_{n}&space;=&space;\{\&space;(x_{1},\&space;x_{2},\&space;\cdots,\&space;x_{n}):&space;x_{i}&space;\in&space;S_{i}\&space;\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;S_{1}&space;\times&space;S_{2}&space;\times&space;\cdots&space;\times&space;S_{n}&space;=&space;\{\&space;(x_{1},\&space;x_{2},\&space;\cdots,\&space;x_{n}):&space;x_{i}&space;\in&space;S_{i}\&space;\}" title="S = S_{1} \times S_{2} \times \cdots \times S_{n} = \{\ (x_{1},\ x_{2},\ \cdots,\ x_{n}): x_{i} \in S_{i}\ \}" /></a>.
+
+Suppose that <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" title="S_{1},\ S_{2},\ \cdots,\ S_{n}" /></a> are subsets of a given set <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a> and that the following holds:
+
+**1**. The subsets <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" title="S_{1},\ S_{2},\ \cdots,\ S_{n}" /></a> are mutually disjoint;
+**2**. S_{1} \cup S_{2} \cup \cdots \cup S_{n} = S;
+**3**. none of the <a href="https://www.codecogs.com/eqnedit.php?latex=S_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{i}" title="S_{i}" /></a> is empty.
+
+Then <a href="https://www.codecogs.com/eqnedit.php?latex=S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{1},\&space;S_{2},\&space;\cdots,\&space;S_{n}" title="S_{1},\ S_{2},\ \cdots,\ S_{n}" /></a> is called a **partition** of <a href="https://www.codecogs.com/eqnedit.php?latex=S" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S" title="S" /></a>.
